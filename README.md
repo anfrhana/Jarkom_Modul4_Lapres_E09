@@ -513,10 +513,10 @@ gateway 192.168.16.1
 Pada UML SURABAYA lakukan perintah ```iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16```
 
 Pada router SURABAYA, BATU, PASURUAN, dan KEDIRI ditambahkan route seperti berikut:
-**SURABAYA** - D1, Malang, D2
-**BATU** - A7, Malang, B1
-**PASURUAN** - B3
-**KEDIRI** - A3
+- **SURABAYA** = D1, Malang, D2
+- **BATU** = A7, Malang, B1
+- **PASURUAN** = B3
+- **KEDIRI** = A3
 
 Ketikkan perintah ```nano route.sh```.
 Kemudian tambahkan route berikut:
