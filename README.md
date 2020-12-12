@@ -546,6 +546,7 @@ ip route add 192.168.0.0/22 via 192.168.4.2 dev eth1
 Jalankan file route.sh dengan perintah ```source route.sh```.
 
 Cek apakah routing dan CIDR sudah berjalan dengan baik dengan melakukan beberapa tes.
+
 PROBOLINGGO ping ke JOMBANG
 
 <img width="365" alt="probolinggo ping jombang" src="https://user-images.githubusercontent.com/61228737/101981096-036ded80-3c9d-11eb-9e49-7230974b4093.png">
