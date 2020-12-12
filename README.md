@@ -205,9 +205,15 @@ uml_mconsole JOMBANG halt
 ```
 
 Lakukan konfigurasi network interface pada setiap UML.
-Sebelum itu, UML yang merupakan router, lakukan ```nano /etc/sysctl.conf``` uncomment pada ```net.ipv4.ip_forward=1``` agar dapat meneruskan route dan ```sysctl -p``` untuk mengaktifkan.
+
+Sebelum itu, UML yang merupakan router, lakukan ```nano /etc/sysctl.conf```.
+
+uncomment pada ```net.ipv4.ip_forward=1``` agar dapat meneruskan route dan ```sysctl -p``` untuk mengaktifkan.
+
 Jalankan ```nano /etc/network/interfaces``` pada tiap uml.
+
 Kemudian buat konfigurasi seperti berikut:
+
 SURABAYA (router)
 ```
 auto lo
