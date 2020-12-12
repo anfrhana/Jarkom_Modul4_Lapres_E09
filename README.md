@@ -38,6 +38,7 @@ Diperoleh pohon pembagian IP berdasarkan penggabungan subnet yang telah dilakuka
 <img width="545" alt="ip cidr" src="https://user-images.githubusercontent.com/61228737/101979377-432dd880-3c8f-11eb-9068-8703b1103f3a.png">
 
 NID dibagikan pada setiap subnet pada topologi, menjadi sebagai berikut:
+
 SERVERS
 
 ``` 
