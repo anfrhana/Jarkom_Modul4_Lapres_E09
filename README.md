@@ -16,7 +16,9 @@ Subnet besar yang dibentuk memiliki NID 192.168.0.0 dengan netmask /19. Hitung p
 
 Subnet server tidak masuk kedalam pembagian alamat IP. Berikut untuk IP dari server dan cloud
 ![image](https://user-images.githubusercontent.com/61223768/101973322-d522ea80-3c69-11eb-8471-06c9b1a9f623.png)
+
 **Praktik**
+
 Buka aplikasi Cisco Packet Tracer, buat topologi baru.
 
 **Routing**
