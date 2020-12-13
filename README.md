@@ -26,7 +26,7 @@ Buka aplikasi Cisco Packet Tracer, buat topologi baru.
 
 Atur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pembagian subnet pada pohon VLSM.
 
-Atur pada menu Config > INTERFACE > “nama interface” (contoh: FastEthernet0/0). Isi alamat IP dan subnet mask dari subnet interface tersebut. Berikut contoh untuk mengatur IP 
+Atur pada menu Config > INTERFACE > “nama interface” (contoh: FastEthernet0/0). Isi alamat IP dan subnet mask dari subnet interface tersebut. Berikut contoh untuk mengatur IP pada subnet A3. Atur alamat IP pada Blitar yang mengarah ke tulungagung
 
 ![image](https://user-images.githubusercontent.com/61223768/102000995-7029cc00-3d1f-11eb-99f2-f1cd0365e8cc.png)
 
@@ -34,7 +34,7 @@ Atur IP pada interface TULUNGAGUNG yang mengarah ke Blitar dengan IP sesuai pada
 
 ![image](https://user-images.githubusercontent.com/61223768/102001017-acf5c300-3d1f-11eb-9283-6cd27ace7c55.png)
 
-lakukan setting interface pada semua subnet
+Selanjutya lakukan setting interface seperti tadi pada semua subnet.
 
 **Routing**
 
