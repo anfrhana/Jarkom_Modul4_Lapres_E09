@@ -7,6 +7,7 @@ Membuat subnet
 **1. VLSM - CPT**
 
 Tentukan jumlah alamat IP yang dibutuhkan oleh tiap subnet dan lakukan labelling netmask berdasarkan jumlah IP yang dibutuhkan.
+
 ![image](https://user-images.githubusercontent.com/61223768/101973258-4f9f3a80-3c69-11eb-9334-debeb755c52f.png)
 
 Berdasarkan total IP dan netmask yang dibutuhkan, maka kita dapat menggunakan netmask /19 untuk memberikan pengalamatan IP pada subnet.
@@ -21,9 +22,40 @@ Subnet server tidak masuk kedalam pembagian alamat IP. Berikut untuk IP dari ser
 
 Buka aplikasi Cisco Packet Tracer, buat topologi baru.
 
+![Soal Shift Modul 4](https://user-images.githubusercontent.com/61223768/102000929-feea1900-3d1e-11eb-9840-50905b730fd1.png)
+
+Atur IP untuk masing-masing interface yang ada di setiap device sesuai dengan pembagian subnet pada pohon VLSM.
+
+Atur pada menu Config > INTERFACE > “nama interface” (contoh: FastEthernet0/0). Isi alamat IP dan subnet mask dari subnet interface tersebut. Berikut contoh untuk mengatur IP 
+
+![image](https://user-images.githubusercontent.com/61223768/102000995-7029cc00-3d1f-11eb-99f2-f1cd0365e8cc.png)
+
+Atur IP pada interface TULUNGAGUNG yang mengarah ke Blitar dengan IP sesuai pada tabel pembagian IP
+
+![image](https://user-images.githubusercontent.com/61223768/102001017-acf5c300-3d1f-11eb-9283-6cd27ace7c55.png)
+
+lakukan setting interface pada semua subnet
+
 **Routing**
 
+Routing dapat dilakukan pada menu Config > Routing > Static pada device Router.
+
+Routing dilakukan dengan menambahkan NID, Netmask, dan next hop dari router lain yang tidak terhubung langsung dengan Router tersebut
+
+Misal pada router PASURUAN Subnet yang terkoneksi secara langsung adalah A14, A13, dan A10 untuk itu dia perlu dikenalkan dengan subnet lain, yaitu A11, A12, dan default routing.
+
+![image](https://user-images.githubusercontent.com/61223768/102001108-b895b980-3d20-11eb-8435-4369a1fb0b62.png)
+
+Lakukan setting tersebut ke setiap router sesuai dengan tabel berikut
+
 ![image](https://user-images.githubusercontent.com/61223768/101973407-7742d280-3c6a-11eb-85d7-e4d8ad2cfd3f.png)
+
+**testing**
+
+![image](https://user-images.githubusercontent.com/61223768/102001145-30fc7a80-3d21-11eb-9421-294bb7904bc8.png)
+
+jika suda succesfull menandakan bahwa konfigurasi routing yang dibuat telah benar
+
 
 **2. CIDR - UML**
 
